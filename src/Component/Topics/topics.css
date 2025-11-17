@@ -1,0 +1,44 @@
+
+.topics{
+    background-image: url("../../../../anh_ngang.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.topics h4{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.topics p{
+    margin: 0;
+}
+.topics__container{
+    padding: 20px;
+}
+.topics__main table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.topics__main th{
+    width: 120px;
+    border: 1px solid black;
+    text-align: center;
+}
+.topics__main th:nth-child(2){
+    width: 200px;
+}
+.topics__main td{
+    border: 1px solid black;
+    height: 40px;
+}
+.topics__main button{
+    background-color: #D1EE9D;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 3px;
+    margin-left: 23px;
+}

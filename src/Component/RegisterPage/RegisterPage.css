@@ -1,0 +1,68 @@
+
+.Register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../../anh_ngang.png");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover; 
+    background-position: center;
+
+}
+.Register__container{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color: #E5E3DB;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+.Register__title{
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+}
+.Register__main{
+    display: flex;
+    flex-direction: column;
+}
+.Register__main label{
+    color: #71706A;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.Register__main input{
+    border-radius: 10px;
+    font-size: 16px;
+    color: #71706A;
+    background-color: #eef6e0;
+    border: none;
+    height: 38px;
+    padding-left: 15px;
+}
+.Register__main input:hover{
+    background-color: #E3E0D5;
+}
+.Register__main button{
+    background-color: rgb(115, 149, 115);
+    border: none;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+.Register__condition{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.Register__account{
+    text-align: center;
+    font-size: 15px;
+}

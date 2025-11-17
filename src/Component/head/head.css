@@ -1,0 +1,54 @@
+
+.Header{
+    background-image: url("../../../../anh_ngang.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+}
+.Header__main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header__search{
+    display: flex;
+    align-items: center;
+}
+.Header__SearchMain{
+    background-color: #FFA7A0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Header__search span{
+    font-weight: 900;
+    font-size: 18px;
+}
+.Header__search input{
+    border-radius: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid black;
+    height: 40px;
+    font-weight: 600;
+}
+.Header__search button{
+    background-color: #E5E3DC;
+    border-radius: 100%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.Header__tool button{
+    background-color: #D1EE9D;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 3px solid black;
+    padding: 6px 25px;
+    font-weight: 600;
+}
